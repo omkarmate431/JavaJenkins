@@ -48,5 +48,6 @@ public class AdvancedCalculatorTest {
     private void testModulus(){
         AdvancedCalculator advancedCalculator = new AdvancedCalculator();
         assertEquals(advancedCalculator.modulus(7,2),1);
+        assertEquals(advancedCalculator.modulus(7,7),0);
     }
 }
