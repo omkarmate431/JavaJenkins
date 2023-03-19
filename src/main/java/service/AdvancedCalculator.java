@@ -27,4 +27,8 @@ public class AdvancedCalculator {
     public  int square(int a){
         return a*a;
     }
+
+    public int modulus(int a,int b){
+        return a%b;
+    }
 }
