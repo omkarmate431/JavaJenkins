@@ -43,4 +43,10 @@ public class AdvancedCalculatorTest {
         AdvancedCalculator advancedCalculator = new AdvancedCalculator();
         assertEquals(advancedCalculator.square(7),49);
     }
+
+    @Test
+    private void testModulus(){
+        AdvancedCalculator advancedCalculator = new AdvancedCalculator();
+        assertEquals(advancedCalculator.modulus(7,2),1);
+    }
 }
